@@ -5,8 +5,10 @@ import ResponsiveCardGird from "../components/responsiveCardGird";
 function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-      <Header />
-      <Footer />
+      <Navbar />
+      <HeroSection />
+
+      <ResponsiveCardGird />
     </div>
   );
 }
